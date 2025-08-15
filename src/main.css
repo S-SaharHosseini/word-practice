@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "rubik";
+  src: url("../public/assets/font/Rubik-VariableFont_wght.ttf");
+}
+body {
+  font-family: "rubik";
+  background: url("../public/assets/image/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  @apply w-full h-screen flex items-center justify-center;
+}
+.content {
+  background-color: #0097a7;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3);
+  @apply h-fit py-5 w-full flex justify-center items-center flex-col;
+}
+.content h1 {
+  @apply text-center mb-2 text-4xl text-white;
+}
+.content input {
+  background-color: #e1e1e1;
+  color: #3f3f3f;
+  @apply h-14 w-11/12 lg:w-6/12 pl-5 my-5 outline-none rounded-sm;
+}
+.content input::placeholder {
+  font-family: "rubik";
+  color: #3f3f3f5d;
+}
+.action {
+  @apply flex gap-5 justify-between  w-11/12 lg:w-6/12;
+}
+.action button {
+  @apply w-1/2 bg-white text-white py-3 rounded-sm text-lg font-medium;
+}
+.action button.save {
+  background-color: #ff524e;
+}
+.action button.hide {
+  background-color: #3f3f3f;
+}
+.content p {
+  color: #222222;
+}
