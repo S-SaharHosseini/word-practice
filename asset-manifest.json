@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/word-practice/static/css/main.b7676cdb.css",
+    "main.js": "/word-practice/static/js/main.9607f50d.js",
+    "static/media/bg.jpg": "/word-practice/static/media/bg.362aee30466512d5cf3e.jpg",
+    "static/media/Rubik-VariableFont_wght.ttf": "/word-practice/static/media/Rubik-VariableFont_wght.d3c04283940221abf09a.ttf",
+    "index.html": "/word-practice/index.html",
+    "main.b7676cdb.css.map": "/word-practice/static/css/main.b7676cdb.css.map",
+    "main.9607f50d.js.map": "/word-practice/static/js/main.9607f50d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7676cdb.css",
+    "static/js/main.9607f50d.js"
+  ]
+}
